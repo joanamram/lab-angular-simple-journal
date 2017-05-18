@@ -1,0 +1,12 @@
+<p>
+  entry-list works!
+</p>
+
+<button type="button" name="button" (click)="listAll()">Click Me</button>
+
+<div *ngFor='let log of items'>
+<p>{{log.title}}</p>
+<p>{{log.date}}</p>
+<p>{{log.content}}</p>
+
+</div>
